@@ -731,7 +731,7 @@ module.exports = handle = (client, Client) => {
                            }, 
                            {
                              "title": " wallpaper anime", 
-                             "rowId": `${data.prefix + data.command} wallnime`
+                             "rowId": `${data.prefix + data.command} wallpaper anime`
                            }
                         ]
                      }]}}, {}) 
