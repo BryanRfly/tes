@@ -44,7 +44,7 @@ after start it you need to scan the qr
 ### NOTE
 <p>Jika Mengalami Error Pada Marker (marker not found) silahkan ganti versi baileys nya ke versi 3.4.1 dengan cara
 
-- npm i @adiwajshing/baileys@3.4.1
+- npm i @adiwajshing/baileys@3.5.0
 - npm i marker
 - npm start
 
