@@ -659,9 +659,9 @@ module.exports = handle = (client, Client) => {
               Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/shota?apikey=KopiLuwak', 'shota.jpg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'sadgirl') {
               Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/sadgirl?apikey=KopiLuwak', 'sadgirl.jpg', `Nih Ramdom Imagenya`, data.message)
-            } else if(data.args[0].toLowerCase() == 'nime fanart') {
+            } else if(data.args[0].toLowerCase() == 'nimart') {
               Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/art?apikey=KopiLuwak', 'fanart.jpg', `Nih Ramdom Imagenya`, data.message) 
-            } else if(data.args[0].toLowerCase() == 'wallpaper anime') {
+            } else if(data.args[0].toLowerCase() == 'wallnime') {
               Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/wallnime?apikey=KopiLuwak', 'wallnime.jpg', `Nih Ramdom Imagenya`, data.message)
             } else {
               		let po = client.prepareMessageFromContent(data.from, {
@@ -727,11 +727,11 @@ module.exports = handle = (client, Client) => {
                            }, 
                            {
                              "title": " nime fanart", 
-                             "rowId": `${data.prefix + data.command} nime fanart`
+                             "rowId": `${data.prefix + data.command} nimeart`
                            }, 
                            {
                              "title": " wallpaper anime", 
-                             "rowId": `${data.prefix + data.command} wallpaper anime`
+                             "rowId": `${data.prefix + data.command} wallnime`
                            }
                         ]
                      }]}}, {}) 
