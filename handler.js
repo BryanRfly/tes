@@ -634,35 +634,35 @@ module.exports = handle = (client, Client) => {
         Client.cmd.on('randomimage', async (data) => {
             if (isLimit(data.sender)) return data.reply(mess.limit) 
             if(data.args[0].toLowerCase() == 'cecan') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/cecan?apikey=KopiLuwak', 'cecan.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/cecan?apikey=KopiLuwak', 'cecan.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'cogan') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/cogan?apikey=KopiLuwak', 'cogan.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/cogan?apikey=KopiLuwak', 'cogan.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'bts') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/bts?apikey=KopiLuwak', 'bts.jpg',`Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/bts?apikey=KopiLuwak', 'bts.jpeg',`Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'exo')  {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/exo?apikey=KopiLuwak', 'exo.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/exo?apikey=KopiLuwak', 'exo.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'estetik') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/estetic?apikey=KopiLuwak', 'estetik.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/estetic?apikey=KopiLuwak', 'estetik.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'blackpink') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/blackpink?apikey=KopiLuwak', 'bpink.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/blackpink?apikey=KopiLuwak', 'bpink.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'waifu') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/waifu?apikey=KopiLuwak', 'waifu.jpg', `Nih Ramdom Imagenya`, data.message) 
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/waifu?apikey=KopiLuwak', 'waifu.jpeg', `Nih Ramdom Imagenya`, data.message) 
             } else if(data.args[0].toLowerCase() == 'husbu') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/husbu?apikey=KopiLuwak', 'husbu.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/husbu?apikey=KopiLuwak', 'husbu.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'loli') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/loli?apikey=KopiLuwak', 'loli.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/loli?apikey=KopiLuwak', 'loli.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'neko') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/neko?apikey=KopiLuwak', 'neko.jpg',`Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/neko?apikey=KopiLuwak', 'neko.jpeg',`Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'elf')  {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/elf?apikey=KopiLuwak', 'elf.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/elf?apikey=KopiLuwak', 'elf.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'shota') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/shota?apikey=KopiLuwak', 'shota.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/shota?apikey=KopiLuwak', 'shota.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'sadgirl') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/sadgirl?apikey=KopiLuwak', 'sadgirl.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/sadgirl?apikey=KopiLuwak', 'sadgirl.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else if(data.args[0].toLowerCase() == 'nimart') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/art?apikey=KopiLuwak', 'fanart.jpg', `Nih Ramdom Imagenya`, data.message) 
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/art?apikey=KopiLuwak', 'fanart.jpeg', `Nih Ramdom Imagenya`, data.message) 
             } else if(data.args[0].toLowerCase() == 'wallnime') {
-              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/wallnime?apikey=KopiLuwak', 'wallnime.jpg', `Nih Ramdom Imagenya`, data.message)
+              Client.sendFileFromUrl(data.from, 'https://api.lolhuman.xyz/api/random/wallnime?apikey=KopiLuwak', 'wallnime.jpeg', `Nih Ramdom Imagenya`, data.message)
             } else {
               		let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
