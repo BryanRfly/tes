@@ -8,9 +8,9 @@
 	"apiUrl": "https://api.zeks.xyz",
         "apiLol": "https://api.lolhuman.xyz",
 	"botname": "J-BOT", 
-	"xkey": "8833d90ca4739a1d", 
-        "eztkey": "kopler199",
-        "lolkey": "KopiLuwak",
+	"xkey": "your_apikey", 
+        "eztkey": "your_apikey",
+        "lolkey": "your_apikey",
 	"pack": "Akmalzz Gantemg",
 	"author": "08885960825"
 }
