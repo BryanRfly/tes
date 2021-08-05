@@ -42,13 +42,15 @@
 after start it you need to scan the qr
 #### Session name is optional
 ### NOTE
-<p>Jika Mengalami Error Pada Marker (marker not found) silahkan ganti versi baileys nya ke versi 3.4.1 dengan cara
+<p>Menerima Donasi Dalam Bentuk Nomor Kosong Luar Dalam Saya Terima
+  
+  Jika Mengalami Error Pada Marker (marker not found) silahkan ganti versi baileys nya ke versi 3.4.1 dengan cara
 
 - npm i @adiwajshing/baileys@3.4.1
 - npm i marker
 - npm start
 
-Untuk mendapatkan Apu Zeks [Silahkan Daftar Disini](https://zeks.xyz/register) untuk api xteam [Silahkan Daftar Disini](https://api.xteam.xyz/register)</p>
+Untuk mendapatkan Api Zeks [Silahkan Daftar Disini](https://zeks.xyz/register) untuk api xteam [Silahkan Daftar Disini](https://api.xteam.xyz/register)</p>
 
 ### Contact me
 
