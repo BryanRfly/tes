@@ -369,14 +369,14 @@ module.exports = handle = (client, Client) => {
           configs.botname = `${data.body}`
          data.reply(`Nama Bot Berhasil Di Ubah Menjadi ${data.body}`)
         })
-        Client.cmd.on('exif', async(data) => {
+       Client.cmd.on('exif', async(data) => {
           if (!data.isOwner) return data.reply(mess.ownerOnly)
           if (data.body == "") return data.reply(`Contoh: ${data.prefix + data.command} pack|author`) 
-          p = data.body
-          xif = p.split('|') 
-          configs.pack = `${xif[0]}`
-          configs.author = `${xif[1]}`
-         data.reply(`Watermark Sticker Berhasil Di Ubah Menjadi\n\nPack: ${xif[0]}\nAuthot: ${xif[1]}`)
+          pgf = data.body
+          xifgf = pgf.split('|') 
+          configs.pack = `${xifgf[0]}`
+          configs.author = `${xifgf[1]}`
+         data.reply(`Watermark Sticker Berhasil Di Ubah Menjadi\n\nPack: ${xifgf[0]}\nAuthor: ${xifgf[1]}`)
         })
         Client.cmd.on('autoread', async(data) => {
           if (!data.isOwner) return data.reply(mess.ownerOnly) 
